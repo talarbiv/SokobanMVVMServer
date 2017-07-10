@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="ModelPackeg" project="SokobanMVVMServer" 
+    file="/SokobanMVVMServer/src/ModelPackeg" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="485" x="1098" y="441"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="server" project="SokobanMVVMServer" file="/SokobanMVVMServer/src/server" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="231" width="482" x="561" y="124"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="view" project="SokobanMVVMServer" file="/SokobanMVVMServer/src/view" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="485" x="18" y="442"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="4" language="java" name="server.SokobanClientHandlerServer" project="SokobanMVVMServer" 
+    file="/SokobanMVVMServer/src/server/SokobanClientHandlerServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="141" width="233" x="576" y="199"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="server.ServerController" project="SokobanMVVMServer" 
+    file="/SokobanMVVMServer/src/server/ServerController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="147" width="191" x="842" y="195"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="model.db.SokobanDBManager" project="SokobanMVVMServer" 
+    file="/SokobanMVVMServer/lib/sokobanDB.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="107" width="212" x="34" y="546"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="strips.Strips" project="SokobanMVVMServer" 
+    file="/SokobanMVVMServer/lib/stripsLib.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="105" width="214" x="267" y="546"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="view.ServerWindowController" project="SokobanMVVMServer" 
+    file="/SokobanMVVMServer/src/view/ServerWindowController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="133" width="200" x="1126" y="528"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

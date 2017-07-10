@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="view.ServerWindowController">
+   <top>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Client list" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Text>
+   </top>
+   <center>
+    <TableView prefHeight="294.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn prefWidth="150.0" text="Client" />
+          <TableColumn prefWidth="150.0" text="kill" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
